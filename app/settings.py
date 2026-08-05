@@ -16,3 +16,4 @@ LOG_DIR.mkdir(exist_ok=True)
 REQUEST_TIMEOUT = 20
 
 THREADS = 8
+ASSET_TYPES = {

@@ -2,15 +2,12 @@ from __future__ import annotations
 
 from app.api import RobloxAPI
 
-
 class RobloxService:
 
     def __init__(self):
-
         self.api = RobloxAPI()
 
     def resolve_user(self, username: str):
-
         if username.isdigit():
             return int(username)
 
